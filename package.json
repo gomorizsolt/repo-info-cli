@@ -14,6 +14,10 @@
 	"engines": {
 		"node": ">=8"
 	},
+	"bugs": {
+		"url": "https://github.com/gomorizsolt/repo-info-cli/issues"
+	},
+	"homepage": "https://github.com/gomorizsolt/repo-info-cli#readme",
 	"scripts": {
 		"test": "xo && ava"
 	},
