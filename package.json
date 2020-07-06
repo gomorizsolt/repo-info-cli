@@ -3,6 +3,7 @@
 	"description": "CLI app to inspect repositories without leaving your terminal.",
 	"version": "1.0.0",
 	"license": "MIT",
+	"repository": "gomorizsolt/repo-info-cli",
 	"keywords": [
 		"ink",
 		"react",
