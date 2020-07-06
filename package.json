@@ -2,7 +2,8 @@
 	"name": "repo-info-cli",
 	"version": "0.0.0",
 	"license": "MIT",
-	"bin": "cli.js",
+	"bin": "./src/index.js",
+	"main": "./src/index.js",
 	"engines": {
 		"node": ">=8"
 	},
@@ -10,14 +11,14 @@
 		"test": "xo && ava"
 	},
 	"files": [
-		"cli.js",
-		"ui.js"
+		"src/**/*.js"
 	],
 	"dependencies": {
+		"axios": "^0.19.2",
 		"import-jsx": "^4.0.0",
 		"ink": "^2.7.1",
+		"ink-spinner": "^3.1.0",
 		"meow": "^7.0.1",
-		"prop-types": "^15.7.2",
 		"react": "^16.13.1"
 	},
 	"devDependencies": {

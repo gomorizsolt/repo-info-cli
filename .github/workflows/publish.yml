@@ -1,0 +1,25 @@
+name: Publish
+
+on:
+  push:
+    tags:
+      - "v*"
+
+env:
+  node_version: "12.x"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ env.node_version }}
+          registry-url: "https://registry.npmjs.org"
+      - run: npm install
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
