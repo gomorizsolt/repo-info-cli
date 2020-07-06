@@ -12,7 +12,13 @@ Status and support
 - &#x2714; supported
 - &#x2716; no ongoing development
 
-## Installation
+## Usage
+
+```sh
+npx repo-info-cli -r=vadimdemedes/ink
+```
+
+Alternatively, you can also add the executable as a global dependency.
 
 ### NPM
 
@@ -46,7 +52,7 @@ cd folder/ && npm install
 node src/index.js --help
 ```
 
-You can optionally create a [symlink](https://docs.npmjs.com/cli/link) as though the package is installed globally.
+You can optionally create a [symlink](https://docs.npmjs.com/cli/link) as if the package is installed globally.
 
 ```sh
 npm link
