@@ -1,7 +1,7 @@
 {
 	"name": "repo-info-cli",
 	"description": "CLI app to inspect repositories without leaving your terminal.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"license": "MIT",
 	"repository": "gomorizsolt/repo-info-cli",
 	"keywords": [
