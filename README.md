@@ -2,7 +2,7 @@
 
 [![NPM](https://img.shields.io/npm/v/repo-info-cli.svg)](https://www.npmjs.com/package/repo-info-cli) ![Publish](https://github.com/gomorizsolt/repo-info-cli/workflows/Publish/badge.svg)
 
-**CLI app to inspect repositories without leaving your terminal. Built with [Ink](https://github.com/vadimdemedes/ink) and [create-ink-app](https://github.com/vadimdemedes/create-ink-app).**
+**CLI app to take a glance repositories without leaving your terminal. Built with [Ink](https://github.com/vadimdemedes/ink) and [create-ink-app](https://github.com/vadimdemedes/create-ink-app).**
 
 ![](media/demo.gif)
 
