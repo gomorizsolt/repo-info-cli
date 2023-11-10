@@ -25,7 +25,7 @@
 		"src/**/*.js"
 	],
 	"dependencies": {
-		"axios": "^0.21.2",
+		"axios": "^1.6.0",
 		"import-jsx": "^4.0.0",
 		"ink": "^2.7.1",
 		"ink-spinner": "^3.1.0",
